@@ -181,7 +181,7 @@ void calculateTablePrice()
     float length, width, price = 1500;
 
     cout << "Enter customer name: ";
-    getline(cin, customerName);
+    cin >> customerName;
 
     cout << "Enter table dimensions (length and width in inches): ";
     cin >> length >> width;
